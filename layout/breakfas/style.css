@@ -1,0 +1,511 @@
+body{
+  margin: 0;
+  min-width: 1400px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+   }
+
+li a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+
+  border-radius: 10px;
+  transition: .1s linear;
+    border-bottom: none;
+}
+li a:hover {
+
+  background-color: #ff4a58;
+
+  }
+
+li ul {
+    position: absolute;
+    display: none;
+    margin-left: 0;
+    margin-top: 0;
+  transition: .1s linear;
+
+   }
+
+li:hover ul {
+    display: block;
+   }
+.fon{
+  display: block;
+  width: 100%;
+  height: 47vw;
+  background: url("photo/fon.png")  center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.item-1{
+  position: absolute;
+  right: 0;
+  bottom: -150px;
+  border: 0;
+  z-index: 1000;
+
+}
+
+
+
+
+.item-1 img{
+  width: 735px;
+}
+
+.item-2{
+  position: absolute;
+  bottom: -95px;
+  left: 120px;
+  z-index: 1000;
+}
+
+.fon_2{
+  display: block;
+  width: 100%;
+  height: 850px;
+  background: url("photo/fon_2.png") center no-repeat;
+  background-size: cover;
+}
+
+.text_1{
+  position: absolute;
+  left: 4.1%;
+  top: 4.4%;
+}
+
+.phone_number{
+  position: absolute;
+  right: 3.5%;
+  top: 1.7%;
+  display: flex;
+  align-items: center;
+  color: #ebad4b;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  letter-spacing: 3px;
+  width: 300px;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.bike{
+  margin-right: 4.4%;
+}
+
+.nav{
+  display: flex;
+  width: 30%;
+  position: absolute;
+  right: 0;
+  top: 10.9%;
+  right: 4.1%;
+  justify-content: space-around;
+  z-index: 2100;
+}
+
+
+
+.nav_toggle{
+  text-decoration: none;
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 4px;
+  transition: .1s linear;
+}
+
+
+
+.title{
+  font-family: 'Playball', serif;
+  font-weight: bold;
+  color: #ff4a58;
+  font-size: 95px;
+  position: absolute;
+  top: 310px;
+  text-align: right;
+  left: 14.4%;
+  letter-spacing: 5px;
+  line-height: 90px;
+  cursor: default;
+
+}
+
+
+/*fon_2*/
+
+.fon_2{
+  display: block;
+  width: 100%;
+  height: 624px;
+  background: url("photo/fon_2.png") no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container_fon_2{
+  display: block;
+  width: 72.6%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.our{
+  padding-top: 150px;
+  color: #3b3b3b;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.story{
+  color: #ff4a58;
+  font-family: 'Playball', serif;
+  font-size: 100px;
+  line-height: 60px;
+  padding-right: 30px;
+}
+
+.story_text{
+  margin-top: 58px;
+  font-size: 23px;
+  color: #3b3b3b;
+}
+
+.story_button{
+  border: solid #ffc0c5 1px;
+  border-radius: 3px;
+  width: 14.1%;
+  margin: 0 auto;
+  padding: 10px 0;
+  transition: .1s linear;
+  margin-top: 60px;
+
+}
+
+.button_text{
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #3b3b3b;
+  transition: .1s linear;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 2px;
+
+}
+
+.story_button:hover{
+  background-color: #ff4a58;
+}
+
+.story_button:hover .button_text{
+  color: #fff;
+}
+
+/*page_3*/
+
+.item_3{
+  position: absolute;
+  bottom: -122px;
+  left: 284px;
+  z-index: 20;
+}
+
+.fon_3{
+  display: block;
+  width: 100%;
+  height: 655px;
+  position: absolute;
+  background-color: rgba(0,0,0,.7);
+  z-index: 10;
+}
+
+.fast{
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 34px;
+  color: #ffffff;
+  letter-spacing: 6px;
+  padding-top: 280px;
+}
+
+
+
+.menu_img{
+  margin-top: 106px;
+  margin-left: 4.1%;
+}
+
+.menu{
+  display: flex;
+}
+
+.menu_text{
+  width: 46.2%;
+  margin-left: 7.4%;
+  margin-top: 160px;
+}
+
+.foods{
+  display: flex;
+  justify-content: space-between;
+}
+
+.ingredients{
+  width: 363px;
+}
+
+.title_text{
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #3b3b3b;
+  font-size: 30px;
+
+}
+
+.suptitle_text{
+  font-family: 'Playball', serif;
+  color: #ff4a58;
+  font-size: 70px;
+
+}
+
+.name_food{
+  margin-top: 35px;
+  margin-bottom: 10px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+.ingredients{
+  font-family: 'Playfair Display', serif;
+  color: #717171;
+}
+
+.cost{
+  color: #ff4a58;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 35px;
+}
+
+/*catering*/
+
+.catering{
+  display: block;
+  width: 100%;
+  height: 689px;
+  background: url("photo/fon_4.png");
+}
+
+.catering_content{
+  width: 35%;
+  margin-left: 9%;
+}
+
+.catering_title{
+  padding-top: 180px;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 30px;
+  color: #3b3b3b;
+}
+
+.catering_title_1{
+/*  padding-top: 180px;*/
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 30px;
+  color: #3b3b3b;
+}
+
+.slide{
+  display: flex;
+}
+
+.circle{
+  display: block;
+  width: 17px;
+  height: 17px;
+  background-color: #dddddd;
+  border-radius: 50%;
+  margin-right: 8px;
+  transition: .1s linear;
+  cursor: pointer;
+}
+
+.circle:hover{
+  background-color: #ffb042;
+}
+
+.catering_suptitle{
+  font-family: 'Playball', serif;
+  color: #ff4a58;
+  font-size: 65px;
+}
+
+.catering_text{
+  margin-top: 55px;
+  font-family: 'Playfair Display', serif;
+  color: #3b3b3b;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.reservation{
+  text-align: center;
+  position: relative;
+}
+
+.blocks{
+  display: flex;
+  margin: 0 auto;
+  width: 845px;
+  justify-content: space-between;
+  text-align: left;
+  margin-top: 27px;
+}
+
+.block{
+  width: 370px;;
+  border: solid 1px #bfbfbf;
+  border-radius: 4px;
+  padding: 20px 20px;
+  font-family: 'Playfair Display', serif;
+  color: #3b3b3b;
+}
+
+.block_1{
+  width: 412px;
+  border: solid 1px #bfbfbf;
+  border-radius: 4px;
+  padding: 20px 20px;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #ff4a58;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: .1s linear;
+  cursor: pointer;
+}
+
+.block_1:hover{
+  background-color: #ff2233;
+}
+
+/*contact*/
+
+.contact{
+  width: 100%;
+  height: 580px;
+  position: relative;
+}
+
+.item_4{
+  position: absolute;
+  right: 95px;
+  top: 80px;
+}
+
+.item_5{
+  position: absolute;
+  top: -145px;
+  left: 100px;
+}
+
+.fon_5{
+  display: block;
+  width: 1326px;
+  height: 525px;
+  background: url("photo/fon_5.png");
+  margin: 118px auto 0;
+  text-align: center;
+}
+
+/*contact*/
+
+.text_contact{
+  font-family: 'Playfair Display', serif;
+  color: #fff;
+  font-size: 22px;
+  padding: 10px 0 20px;
+}
+
+.company{
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.icon_contact{
+
+}
+
+.icon_contact:first-child{
+  padding-top: 230px;
+}
+
+.company{
+  padding: 70px 20px 0;
+  font-family: 'Playfair Display', serif;
+}
+
+.company_icon{
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.video{
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.video__media{
+  width: 100%;
+  z-index: 1;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.intro_fon{
+  max-height: 655px;
+  overflow: hidden;
+}
+
+/*media ------------------------------------------------*/
+
+@media (max-width: 570px){
+  .fon{
+    height: 200px;
+  }
+}

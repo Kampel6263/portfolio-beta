@@ -1,0 +1,650 @@
+body{
+  margin: 0;
+}
+
+.fon{
+  display: block;
+  width: 100%;
+  height: 100vh;
+  background: url("Photo/fon_2.png") center no-repeat;
+  background-size: cover;
+}
+
+.delete{
+  position: absolute;
+  width: 150px;
+  background-color: #00000061;
+  color: #00c1ff;
+  top: 40px;
+  right: 5.5%;
+  position: fixed;
+  opacity: 0;
+  transition: .1s linear;
+  z-index: 1;
+  font-size: 12px;
+  text-align: center;
+  cursor: default;
+}
+
+.delete:hover{
+  opacity: 1
+}
+
+
+
+.header{
+  display: block;
+  width: 100%;
+  height: 55px;
+  background-color: #000000d1;
+  position: absolute;
+  top: 40px;
+  position: fixed;
+}
+
+
+.nav{
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.nav_toggle{
+  color: #00c1ff;
+  text-decoration: none;
+  margin-left: 80px;
+  transition: color .1s linear;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  z-index: 1000;
+}
+
+.nav_toggle:hover{
+  color: #fff;
+}
+
+.fon_container{
+  width: 83.8%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  margin-top: 13px;
+}
+
+.title{
+
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 230px;
+  color: #fff;
+}
+
+.title_logo{
+  font-size: 160px;
+  cursor: default;
+  font-family: 'Raleway', cursive;
+  font-weight: 900;
+}
+
+.title_text{
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.title_button{
+  line-height: 200px;
+  border-radius: 40px;
+  background-color: #ffffffd1;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #00a4db;
+  font-weight: bold;
+  transition: .1s linear;
+}
+
+.title_button:hover{
+  color: #fff;
+  background-color: #00a4dbd1;
+}
+
+/*514px h*/
+
+/*who are we*/
+
+.whoare{
+  display: block;
+  width: 100%;
+  height: 514px;
+  background-color: #000;
+  color: #00c1ff;
+  text-align: center;
+}
+
+.whoare_logo{
+  font-size: 35px;
+  text-transform: uppercase;
+  padding-top: 155px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+}
+
+.whoare_text{
+  padding-top: 30px;
+  font-size: 17px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 30px;
+}
+
+/*wu use*/
+
+.weuse{
+  display: block;
+  width: 100%;
+  height: 375px;
+  background-color: #161616;
+  color: #fff;
+
+}
+
+.weuse_container{
+  width: 74.5%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.weuse_logo{
+  padding-top: 130px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.weuse_text{
+  padding-top: 30px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 30px;
+
+}
+
+/*1198*/
+
+.first{
+  display: block;
+  width: 100%;
+  height: 1250px;
+  background: url("Photo/fon_3.png") center no-repeat;
+  background-size: cover;
+  color: #00c1ff;
+  text-align: center;
+}
+
+.first_logo{
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-top: 90px;
+  font-size: 25px;
+}
+
+.first_text{
+  width: 63%;
+  margin: 0 auto;
+  padding-top: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 60px;
+}
+
+.first_blocks{
+  display: flex;
+  width: 80.1%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.f_block{
+  display: block;
+  width: 31.5%;
+  height: 366px;
+  margin-top: 32px;
+  background-color: #1c1c1cc9;
+  text-align: center;
+  color: #fff;
+}
+
+.block_title1{
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.block_title1:first-child{
+  margin: 60px 0 55px;
+}
+
+.block_text1{
+  width: 179px;
+  margin: 0 auto 60px;
+  font-family: 'Lora', serif;
+  font-size: 17px;
+
+
+}
+
+.block_text1:first-child{
+  text-align: left;
+}
+
+/*about*/
+
+.about{
+  display: block;
+  width: 100%;
+  height: 351px;
+  background-color: #161616;
+}
+
+.about_container{
+  display: flex;
+  justify-content: space-between;
+  width: 60.1%;
+  margin-left: 12.4%;
+  color: #fff;
+  padding-top: 80px;
+}
+
+
+.about_l_title{
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 27px;
+}
+
+.about_l_text{
+  width: 315px;
+  margin: 20px 0;
+  font-family: 'Roboto', sans-serif;
+  line-height: 25px;
+  font-size: 19px;
+}
+
+.about_l_icon{
+  display: flex;
+}
+
+.icon{
+  margin-right: 13px;
+}
+
+.about_team{
+  display: flex;
+  width: 38.2%;
+}
+
+.teams{
+  margin-left: 115px;
+  width: 13.6%;
+}
+
+.about_r_title{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.about_r_name{
+  padding-top: 3px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+}
+
+/*start media*/
+@media (max-width: 980px){
+  .fon{
+    height:550px;
+  }
+
+  .delete{
+    display: none;
+  }
+
+    .title_logo {
+    font-size: 85px;
+  }
+
+  .title_text{
+    font-size: 15px;
+  }
+
+  .title_button{
+    font-size: 15px;
+  }
+
+  .header{
+    top: 0;
+  }
+
+  .title{
+    padding-top: 177px;
+  }
+
+  .nav{
+  width: 70%;
+  }
+
+  .nav_toggle{
+    margin-left: 13%;
+    font-size: 14px;
+  }
+
+  .fon_container{
+    width: 95%;
+  }
+
+  .about_container{
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .about_team{
+    display: none;
+  }
+
+  .whoare_text{
+    font-size: 14px;
+  }
+
+  .whoare_logo{
+    font-size: 25px;
+  }
+
+  .weuse_logo{
+    font-size: 14px;
+  }
+
+  .weuse_text{
+    font-size: 12px;
+  }
+
+  .weuse_container{
+    width: 90%;
+  }
+
+  .first_logo{
+    font-size: 19px;
+  }
+
+  .first_text{
+    font-size: 16px;
+    width: 85%;
+  }
+
+  .first_blocks{
+    width: 90%;
+  }
+
+
+}/*980px*/
+
+@media (max-width: 770px){
+
+  .weuse_text{
+    line-height: 24px;
+    font-size: 9px;
+  }
+
+  .weuse_logo{
+    font-size: 11px;
+    padding-top: 97px;
+  }
+
+  .weuse{
+    height: 290px;
+
+  }
+
+  .nav_toggle{
+    font-size: 11px;
+  }
+
+  .header{
+    height: 46px;
+  }
+
+  .nav{
+    margin-top: 13px;
+  }
+
+  .whoare_text{
+    font-size: 11px;
+  }
+
+  .title_logo{
+    font-size: 73px;
+  }
+
+
+  .block_title1:first-child{
+    margin: 30px 0 30px;
+  }
+
+  .block_text1{
+    font-size: 11px;
+    margin: 0 auto 40px;
+  }
+
+  .block_title1{
+    font-size: 13px;
+  }
+
+  .f_block{
+    height: 220px;
+  }
+
+  .first{
+      height: 947px;
+  }
+
+}
+
+@media (max-width: 560px){
+
+  .fon{
+    height: 452px;
+  }
+
+  .nav_toggle{
+    margin-left: 11%;
+    font-size: 10px;
+  }
+
+  .title{
+    padding-top: 144px;
+  }
+
+  .title_logo{
+    font-size: 58px;
+  }
+
+  .title_text{
+    font-size: 13px;
+  }
+
+  .title_button{
+    font-size: 12px;
+  }
+
+  .whoare_text{
+    font-size: 9px;
+  }
+
+  .whoare_logo{
+    font-size: 23px;
+    padding-top: 50px;
+  }
+
+  .whoare{
+    height: 286px;
+  }
+
+  .weuse_text{
+    line-height: 19px;
+    font-size: 7px;
+    padding-top: 20px;
+
+  }
+
+  .weuse_logo{
+    font-size: 10px;
+    padding-top: 50px;
+  }
+
+  .weuse{
+    height: 180px;
+  }
+
+  .first_logo{
+    padding-top: 50px;
+    font-size: 17px;
+  }
+
+  .first_text{
+    padding-top: 30px;
+    margin-bottom: 20px;
+  }
+
+
+  .block_text1{
+    width: 80%;
+    font-size: 10px;
+  }
+
+  .first{
+    height: 811px;
+  }
+
+  .about_container{
+    padding-top: 40px;
+  }
+
+  .about_l_title{
+    font-size: 20px;
+  }
+
+  .about_l_text{
+    font-size: 12px;
+  }
+
+
+  .about{
+    height: 228px;
+  }
+
+  @media (max-width: 470px){
+    .nav_toggle{
+      margin-left: 6%;
+      font-size: 8px;
+    }
+
+
+    .title_logo{
+      font-size: 50px;
+    }
+
+    .title_text{
+      font-size: 8px;
+    }
+
+    .fon{
+      height: 414px;
+    }
+
+    .title_button{
+      line-height: 140px;
+      font-size: 10px;
+    }
+
+    .title{
+      padding-top: 159px;
+    }
+
+
+
+    .header{
+      height: 37px;
+    }
+
+    .logo{
+      margin-top: 10px;
+    }
+
+    .nav{
+      margin-top: 7px;
+      text-align: right;
+    }
+
+    .whoare_text {
+      line-height: 20px;
+      font-size: 6px;
+    }
+
+    .whoare_logo{
+      font-size: 20px;
+      padding-top: 30px;
+    }
+
+    .whoare{
+      height: 200px;
+    }
+
+    .weuse_text{
+      font-size: 6px;
+      line-height: 13px;
+    }
+
+    .first_logo {
+    padding-top: 30px;
+    font-size: 15px;
+    }
+
+    .first_text{
+      padding-top: 21px;
+      margin-bottom: 0px;
+      font-size: 13px;
+      line-height: 22px;
+    }
+
+    .block_title1{
+      font-size: 11px;
+    }
+
+    .about_l_text{
+      width: 100%;
+    }
+
+    .first{
+      height: 725px;
+    }
+  }
+
+
+}
+
+
+/*end media*/

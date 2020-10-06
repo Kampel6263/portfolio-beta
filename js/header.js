@@ -29,3 +29,9 @@ window.addEventListener('scroll', function () {
         fun2();
     }
 });
+
+
+window.addEventListener('scroll', function(){
+  document.getElementById('window__width').innerHTML = 'width = ' + innerWidth + ' height = ' + innerHeight;
+})
+

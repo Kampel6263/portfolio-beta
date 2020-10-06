@@ -32,6 +32,6 @@ window.addEventListener('scroll', function () {
 
 
 window.addEventListener('scroll', function(){
-  document.getElementById('window__width').innerHTML = 'width = ' + innerWidth + ' height = ' + innerHeight;
+  document.getElementById('window__width').innerHTML = 'width = ' + innerWidth + ' height = ' + innerHeight + ' window OX = ' + window.pageYOffset;
 })
 

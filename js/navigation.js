@@ -13,19 +13,19 @@ let contactsLink = document.querySelector('.contacts__link');
 
 
 function scrollToHome() {
-    home.scrollIntoView({block: "center", behavior: "smooth"});
+    home.scrollIntoView({block: "start", behavior: "smooth"});
 }
 
 function scrollToAbout() {
-    about.scrollIntoView({block: "center", behavior: "smooth"});
+    about.scrollIntoView({block: "start", behavior: "smooth"});
 }
 
 function scrollToPortfolio() {
-    portfolio.scrollIntoView({block: "center", behavior: "smooth"});
+    portfolio.scrollIntoView({block: "start", behavior: "smooth"});
 }
 
 function scrollToContacts() {
-    contacts.scrollIntoView({block: "center", behavior: "smooth"});
+    contacts.scrollIntoView({block: "start", behavior: "smooth"});
 }
 
 
@@ -63,7 +63,7 @@ window.addEventListener('scroll', function () {
     } else if (window.pageYOffset >= document.getElementById('portfolio').offsetHeight + aboutPage && window.pageYOffset <= footerPage) {
         pageControl(4);
     } else {
-        pageControl(5);
+        pageControl(4);
     }
 });
 // linkStatus end >

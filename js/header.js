@@ -32,6 +32,5 @@ window.addEventListener('scroll', function () {
 
 
 window.addEventListener('scroll', function(){
-  document.getElementById('window__width').innerHTML = 'width = ' + innerWidth + ' height = ' + innerHeight + ' window OX = ' + Math.round(window.pageYOffset);
+  document.getElementById('window__width').innerHTML = 'width = ' + innerWidth + ' height = ' + innerHeight + ' window oX = ' + Math.round(window.pageYOffset);
 })
-

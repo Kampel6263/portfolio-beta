@@ -830,5 +830,6 @@ h2 {
   position: fixed;
   bottom: 0;
   background: black;
-  z-index: 500;
+  z-index: 25;
+  color: white;
 }

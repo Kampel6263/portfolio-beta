@@ -746,6 +746,10 @@ h2 {
       height: auto;
   }
 
+  .message__cv{
+      width: 90%;
+  }
+
   .about__myself, .skills {
       margin: 0 auto;
       width: 75%;
@@ -821,11 +825,13 @@ h2 {
   }
 
   .social__network{
-      width: 30%;
+      width: 40%;
   }
 
 }
 
+
+/*delete*/
 
 #window__width{
   position: fixed;

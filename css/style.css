@@ -826,3 +826,9 @@ h2 {
 }
 
 
+#window__width{
+  position: fixed;
+  bottom: 0;
+  background: black;
+  z-index: 500;
+}

@@ -42,7 +42,9 @@ window.addEventListener('scroll', function () {
         fun1();
     } else {
         fun2();
-        hideBurger();
+        if(innerWidth <=700){
+            hideBurger();
+        }
     }
 });
 

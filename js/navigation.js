@@ -13,22 +13,31 @@ let contactsLink = document.querySelector('.contacts__link');
 
 
 function scrollToHome() {
-    hideBurger();
+
+    if(innerWidth <=700){
+        hideBurger();
+    }
     home.scrollIntoView({block: "start", behavior: "smooth"});
 }
 
 function scrollToAbout() {
-    hideBurger();
+    if(innerWidth <=700){
+        hideBurger();
+    }
     about.scrollIntoView({block: "start", behavior: "smooth"});
 }
 
 function scrollToPortfolio() {
-    hideBurger();
+    if(innerWidth <=700){
+        hideBurger();
+    }
     portfolio.scrollIntoView({block: "start", behavior: "smooth"});
 }
 
 function scrollToContacts() {
-    hideBurger();
+    if(innerWidth <=700){
+        hideBurger();
+    }
     contacts.scrollIntoView({block: "start", behavior: "smooth"});
 }
 

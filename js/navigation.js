@@ -13,18 +13,22 @@ let contactsLink = document.querySelector('.contacts__link');
 
 
 function scrollToHome() {
+    hideBurger();
     home.scrollIntoView({block: "start", behavior: "smooth"});
 }
 
 function scrollToAbout() {
+    hideBurger();
     about.scrollIntoView({block: "start", behavior: "smooth"});
 }
 
 function scrollToPortfolio() {
+    hideBurger();
     portfolio.scrollIntoView({block: "start", behavior: "smooth"});
 }
 
 function scrollToContacts() {
+    hideBurger();
     contacts.scrollIntoView({block: "start", behavior: "smooth"});
 }
 

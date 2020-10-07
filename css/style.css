@@ -22,6 +22,54 @@ body {
 
 /*background color end*/
 
+.show, .hide{
+  display: none;
+}
+
+.burger__menu{
+  width: 32px;
+  height: 3px;
+  background-color: #ddd;
+  position: absolute;
+  z-index: 20;
+  top: 40px;
+  right: 25px;
+  transition: .2s linear;
+}
+
+.burger__menu:after, .burger__menu:before{
+  content: '';
+  display: block;
+  width: 32px;
+  height: 3px;
+  background-color: #ddd;
+  position: absolute;
+  right: 0px;
+}
+
+.hide{
+  width: 0;
+  opacity: 0;
+}
+
+.hide:after{
+  transform: rotate(45deg);
+  top: 0px;
+}
+
+.hide:before{
+  transform: rotate(-45deg);
+
+}
+
+.show:before{
+  top: 10px;
+}
+
+.show:after{
+  top: -10px
+}
+
 
 h1 {
   margin: 0;
@@ -101,6 +149,7 @@ a {
   align-items: center;
   padding: 10px 0;
   margin: 0 auto;
+  transition: .3s linear;
 }
 
 .logo {
@@ -112,7 +161,7 @@ a {
 nav {
   width: 40%;
   margin: 0 auto;
-
+  transition: .3s linear;
   display: flex;
   justify-content: space-between;
 }
@@ -132,6 +181,7 @@ nav button {
   font-weight: 500;
   margin-top: 9px;
   background: none;
+  max-width: 100px;
 
 }
 
@@ -696,6 +746,26 @@ h2 {
 
 @media (max-width: 700px) {
 
+  nav{
+      display: none;
+      flex-flow: column wrap;
+  }
+
+  .show{
+      display: block;
+  }
+
+  nav button{
+      margin: 5px auto 0;
+      font-size: 17px;
+  }
+
+
+  .logo{
+      width: auto;
+      font-size: 28px;
+  }
+
   .container, .logo__nav, .about, .portfolio {
       width: 95%;
   }
@@ -795,18 +865,10 @@ h2 {
 }
 
 @media (max-width: 500px) {
-  #header {
-      padding-top: 7px;
-  }
 
-  nav button {
-      font-size: 11px;
-  }
 
-  .logo {
-      width: auto;
-      font-size: 20px;
-  }
+
+
 
   nav {
       width: 60%;

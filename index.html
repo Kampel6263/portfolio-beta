@@ -17,12 +17,13 @@
 <div class="title__page" id="title__page">
 
     <header id="header">
-        <div class="logo__nav">
+        <div class="logo__nav" id="logo_nav">
             <div class="logo">MEETME</div>
-            <nav>
+            <div class="burger__menu show" id="burgerS" onclick="showBurger()"></div>
+            <div class="burger__menu hide" id="burgerH" onclick="hideBurger()"></div>
+            <nav id="nav">
                 <button id="active1" class="home__link active">home</button>
                 <button id="active2" class="about__link">about</button>
-                <!--            <a href="#">skills</a>-->
                 <button id="active3" class="portfolio__link">portfolio</button>
                 <button id="active4" class="contacts__link">contacts</button>
             </nav>
@@ -194,15 +195,14 @@
     </div>
 
     <p id="contacts">Like and add me on<br>Facebook and LinkedIn</p>
-   
 
 </div>
-<div id="window__width"></div>  
-
+<div id="window__width"></div>
 <script src="./js/skills.js"></script>
 <script src="./js/header.js"></script>
 <script src="./js/navigation.js"></script>
 <script src="js/loadMoreItems.js"></script>
+<script src="js/burgerMenu.js"></script>
 
 
 </body>

@@ -5,7 +5,7 @@ let burgerHide = document.getElementById('burgerH');
 
 const fun1 = () => {
 
-    header.style.background = "#e40033f2";
+    header.style.background = "#e40033ff";
     header.style.position = 'fixed';
     header.style.padding = '0px 0';
     header.style.boxShadow = '0px 1px 10px 0px rgba(0,0,0,0.75)'

@@ -10,7 +10,7 @@ let time = 200;
 const showBurger = () => {
     logoNav.style.display = 'block';
     if (window.pageYOffset >= 505) {
-        header.style.background = 'rgba(228, 0, 51, 0.95)';
+        header.style.background = 'rgba(228, 0, 51, 1)';
     } else {
         logoNav.style.background = 'rgba(228, 0, 51, 0.95)';
     }
@@ -35,7 +35,7 @@ const showBurger = () => {
 const hideBurger = () => {
 
     if (window.pageYOffset >= 505) {
-        header.style.background = 'rgba(228, 0, 51, 0.95)';
+        header.style.background = 'rgba(228, 0, 51, 1)';
         header.style.padding = '0px 0';
     } else {
         if (innerWidth <= 500) {

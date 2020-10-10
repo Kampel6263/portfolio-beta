@@ -11,7 +11,7 @@ let speed = 3;
 let jsmax = 92;
 let reactmax = 76;
 let reduxmax = 69;
-let gitmax = 88;
+let gitmax = 97;
 let tsmax = 44;
 let nativemax = 37;
 

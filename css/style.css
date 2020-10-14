@@ -2,6 +2,14 @@
   display: none;
 }
 
+ul{
+  padding-left: 25px;
+  text-align: left;
+}
+
+ul li{
+  color: #777;
+}
 
 body {
   margin: 0;
@@ -97,8 +105,6 @@ a {
 .background__gradient {
   width: 100%;
   height: 80vh;
-  /*background: url("../photo/156710672119715443.jpg") center no-repeat;*/
-  /*background: linear-gradient(to right, #dc0000, #ff003c);*/
   background-size: cover;
   position: absolute;
   z-index: -1;
@@ -265,6 +271,19 @@ nav button.active:after {
   font-weight: 500;
 }
 
+.contact__block{
+  display: flex;
+  width: 100%;
+  align-items: center;
+
+}
+
+.contact__block img{
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
 /* title end */
 
 /*about*/
@@ -278,10 +297,16 @@ nav button.active:after {
   justify-content: space-between;
 }
 
+
+
 .about__myself {
   width: 40%;
   opacity: 0;
   transition: .7s linear;
+}
+
+.about h2{
+  margin: 5px 0;
 }
 
 h2 {
@@ -336,6 +361,7 @@ h2 {
 
 .portfolio p {
   margin: 0;
+  font-size: 13px;
 }
 
 .portfolio {
@@ -365,7 +391,7 @@ h2 {
   display: block;
   content: "";
   width: 100%;
-  height: 220px;
+  height: 210px;
   position: absolute;
   top: 0;
   opacity: 0;
@@ -399,7 +425,7 @@ h2 {
 .item img {
   width: 100%;
   border-radius: 10px;
-  height: 220px;
+  height: 210px;
 }
 
 .load__more {
@@ -411,7 +437,7 @@ h2 {
   transition: .3s ease-in-out;
   position: relative;
   overflow: hidden;
-  margin-top: 30px;
+  margin: 30px 0 20px;
 }
 
 .load__more:hover {
@@ -457,7 +483,7 @@ h2 {
 /*contact*/
 
 #footer {
-  margin-top: 200px;
+  margin-top: 180px;
   height: 80vh;
 }
 
@@ -749,6 +775,10 @@ h2 {
   nav{
       display: none;
       flex-flow: column wrap;
+  }
+
+  .description .contact__block p {
+    padding: 5px 0;
   }
 
   .show{

@@ -31,7 +31,7 @@ function scrollToPortfolio() {
     if(innerWidth <=700){
         hideBurger();
     }
-    portfolio.scrollIntoView({block: "start", behavior: "smooth"});
+    portfolio.scrollIntoView({block: "nearest", behavior: "smooth"});
 }
 
 function scrollToContacts() {

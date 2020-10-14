@@ -250,13 +250,16 @@ nav button.active:after {
 
 .avatar {
   width: 45%;
+  height: 50vh; /*delete*/
 }
 
 .avatar img {
   display: block;
   width: 60%;
-  margin: 10% auto;
+  height: 100%; /*delete*/
+  margin: 0 auto; /*10% auto;*/
   border-radius: 15px;
+  background-color: #999;
 }
 
 .description {

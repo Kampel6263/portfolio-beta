@@ -41,7 +41,7 @@ body {
   top: -540px;
   right: -600px;
   /*transition:all 1s opacity 0s;*/
-  transition: all 1s linear, opacity 1s linear;
+  transition: all .7s linear;
 }
 
 #home{

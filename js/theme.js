@@ -87,8 +87,8 @@ const isChecked = () => {
         loadTheme.style.background = blueGradient;
         hideTheme.style.background = blueGradient;
         footerTheme.style.background = blueGradient;
-        backgroundAfterTheme.style.width = '3000px'
-        backgroundAfterTheme.style.height = '3000px'
+        backgroundAfterTheme.style.width = '2500px'
+        backgroundAfterTheme.style.height = '2500px'
 
         for (let i = 1; i <= 6; i++) {
             document.getElementById('skillWidth' + i).style.background = blueGradient;
@@ -98,24 +98,9 @@ const isChecked = () => {
         styleElem2.innerHTML = `#load:after {background: ${blueGradient};}`;
         styleElem3.innerHTML = `#hide:after {background: ${blueGradient};}`;
 
-        let backgroundGradient = setInterval(() => {
-            backgroundAfterTheme = document.getElementById('background__after');
-            if (backgroundAfterTheme.offsetHeight >= 2800) {
-                homeTheme.style.background = blueGradient;
-                backgroundAfterTheme.style.opacity = '0';
-            }
-        }, 20)
-
-        setInterval(() => {
-            backgroundAfterTheme = document.getElementById('background__after');
-            if (backgroundAfterTheme.offsetHeight === 3000) {
-                clearInterval(backgroundGradient)
-            }
-        })
     } else {
         headerBackground = '#e40033ff';
         contactMessageTheme.style.color = '#e40033ff';
-        backgroundAfterTheme.style.opacity = '1';
         homeTheme.style.background = redGradient1;
         loadTheme.style.background = redGradient2;
         hideTheme.style.background = redGradient2;

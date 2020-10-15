@@ -98,16 +98,33 @@ const fun = () => {
 
 let i = false;
 window.addEventListener('scroll', function () {
-    if (window.pageYOffset >= 260) {
-        if (i === false) {
 
-            fun();
-            let abutMyself = document.getElementById('about__myself');
-            abutMyself.style.opacity = '1';
 
-            i = true;
+    if(window.innerWidth <= 700){
+        if (window.pageYOffset >= document.getElementById('block__fon').offsetHeight - 300) {
+            if (i === false) {
+
+                fun();
+                let abutMyself = document.getElementById('about__myself');
+                abutMyself.style.opacity = '1';
+
+                i = true;
+            }
+        }
+    } else {
+        if (window.pageYOffset >= 260) {
+                if (i === false) {
+
+                fun();
+                let abutMyself = document.getElementById('about__myself');
+                abutMyself.style.opacity = '1';
+
+                i = true;
+            }
         }
     }
+
+
 });
 
 

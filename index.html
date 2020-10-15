@@ -12,7 +12,13 @@
 </head>
 <body>
 <div id="home" class="background__gradient">
+    <div id="background__after"></div>
 </div>
+
+<label id="switch" class="switch">
+    <input type="checkbox" onChange="isChecked()" id="check__box">
+    <span class="slider round"></span>
+</label>
 
 <div class="title__page" id="title__page">
 
@@ -32,16 +38,19 @@
     </header>
 
     <div class="container">
-        <div class="background__fon">
+        <div class="background__fon" id="block__fon">
             <div class="title">
-                <div class="avatar"><img src="" alt=""></div>
+                <div class="avatar"><img src="./photo/v2.png" alt=""></div>
                 <div class="description">
                     <div class="entry">Hello everybody, i am</div>
                     <h1>Andrian Kozhomin</h1>
                     <div class="specialty">Front-end developer 20 years old, Lviv, Ukraine</div>
-                    <p>I am a 3rd year student of the National University "Lviv Polytechnic".
-                        I am looking for a job to gain experience and improve Front-end development skills.
-                        I like to study and I do it fast.</p>
+                    <p>I am a beginning front-end developer, looking for interesting and developing projects.
+                        I am a team player and ready for overtime.
+                        I would like to try my hand at your team and improve the
+                        quality and reliability of your software products.
+                        Thank you for taking the time to review my resume
+                        and looking forward to your interview</p>
 
                     <div class="contact__block">
                         <img src="./photo/calendar.webp" alt="">
@@ -69,12 +78,16 @@
 <div class="about" id="about">
     <div id="about__myself" class="about__myself">
         <h2>My skills</h2>
-        <ul>
-            <li>HTML5/CSS3/JS,TS</li>
-            <li>SASS/LESS, Bootstrap, WordPress</li>
-            <li>React - Redux</li>
-            <li>React Native</li>
-            <li>Git</li>
+        <p>I am a 3rd year student of the National University "Lviv Polytechnic".
+            I am looking for a job to gain experience and improve Front-end development skills.
+            My skills: HTML5/CSS3/JS, React-Redux, Git, TypeScript, React Native,
+            Bootstrap, WordPress, SASS/SCSS</p>
+<!--        <ul>-->
+<!--            <li>HTML5/CSS3/JS,TS</li>-->
+<!--            <li>SASS/LESS, Bootstrap, WordPress</li>-->
+<!--            <li>React - Redux</li>-->
+<!--            <li>React Native</li>-->
+<!--            <li>Git</li>-->
 <!--            <li>TypeScript</li>-->
 
 
@@ -169,7 +182,8 @@
                 </a>
             </div>
 
-            <div id="preloader"><img src="./photo/spin.gif" alt=""></div>
+            <div id="preloader1"><img src="./photo/spin.gif" alt=""></div>
+            <div id="preloader2"><img src="./photo/spin2.gif" alt=""></div>
 
             <div class="table__items" id="load__more">
                 <a href="#" target="_blank" class="item">
@@ -200,8 +214,8 @@
     <div class="message__cv">
         <a target="_blank"
            href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCGDchJfWhXVKvSqJDqmTldVwVqtgMgwvHbMfMbCvGQsJfqklxrRpSgncMQQCLtTbzDHBV"
-           class="message">Send message</a>
-        <a href="" class="cv">Save
+           class="message" id="contact__message">Send message</a>
+        <a href="" class="cv" id="contact__cv">Save
             CV</a>
     </div>
 
@@ -221,6 +235,7 @@
 <script src="./js/navigation.js"></script>
 <script src="./js/loadMoreItems.js"></script>
 <script src="./js/burgerMenu.js"></script>
+<script src="./js/theme.js"></script>
 
 
 </body>

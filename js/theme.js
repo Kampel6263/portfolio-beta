@@ -1,13 +1,29 @@
+// let hours = (new Date()).getHours();
+
+
+
 let checkBox = document.getElementById('check__box');
 
 let styleElem1 = document.head.appendChild(document.createElement("style"));
 let styleElem2 = document.head.appendChild(document.createElement("style"));
 let styleElem3 = document.head.appendChild(document.createElement("style"));
 
-let headerBackground = '#e40033ff';
+
+
+
+
+let redHeaderColor = '#e40033ff'
+let headerBackground = redHeaderColor;
+let secondHeaderColor = '#142BF5';
 let redGradient1 = 'linear-gradient(to left bottom, #ec0000, #b004a8)'
 let redGradient2 = 'linear-gradient(to right, #ec0000, #b004a8)'
 let blueGradient = 'linear-gradient(90deg,#00c4cc,#7d2ae8)';
+
+
+// if(hours >= 22 || hours<= 8){
+//     blueGradient = 'linear-gradient(90deg,#333,#555)';
+//     secondHeaderColor = '#111';
+// }
 
 let loadTheme = document.getElementById('load');
 let hideTheme = document.getElementById('hide')
@@ -52,7 +68,7 @@ window.onload = () => {
 
     contactMessage.onmouseout = (e) => {
         if (checkBox.checked) {
-            contactMessageTheme.style.color = '#142BF5';
+            contactMessageTheme.style.color = secondHeaderColor;
         } else {
             contactMessageTheme.style.color = headerBackground;
         }
@@ -64,7 +80,7 @@ window.onload = () => {
 
     contactCv.onmouseover = (e) => {
         if (checkBox.checked) {
-            contactCvTheme.style.color = '#142BF5';
+            contactCvTheme.style.color = secondHeaderColor;
         } else {
             contactCvTheme.style.color = headerBackground;
         }
@@ -82,8 +98,9 @@ const isChecked = () => {
 
 
     if (checkBox.checked) {
-        headerBackground = '#142BF5';
-        contactMessageTheme.style.color = '#142BF5';
+        backgroundAfterTheme.style.background = blueGradient;
+        headerBackground = secondHeaderColor;
+        contactMessageTheme.style.color = secondHeaderColor;
         loadTheme.style.background = blueGradient;
         hideTheme.style.background = blueGradient;
         footerTheme.style.background = blueGradient;
@@ -99,8 +116,8 @@ const isChecked = () => {
         styleElem3.innerHTML = `#hide:after {background: ${blueGradient};}`;
 
     } else {
-        headerBackground = '#e40033ff';
-        contactMessageTheme.style.color = '#e40033ff';
+        headerBackground = redHeaderColor;
+        contactMessageTheme.style.color = redHeaderColor;
         homeTheme.style.background = redGradient1;
         loadTheme.style.background = redGradient2;
         hideTheme.style.background = redGradient2;

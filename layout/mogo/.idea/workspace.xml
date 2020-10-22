@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df41d2eb-3927-4a53-a463-a2be8753c978" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iyNMJL7aU8ZsOIBdYLGQ4ZBG06" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Документи/GitHub/portfolio-beta/portfolio-beta" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df41d2eb-3927-4a53-a463-a2be8753c978" name="Default Changelist" comment="" />
+      <created>1602875822315</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602875822315</updated>
+      <workItem from="1602875823377" duration="9794000" />
+      <workItem from="1602940484492" duration="8420000" />
+      <workItem from="1602959971671" duration="8939000" />
+      <workItem from="1603021513390" duration="655000" />
+      <workItem from="1603057400472" duration="3588000" />
+      <workItem from="1603101991125" duration="11433000" />
+      <workItem from="1603122356153" duration="6649000" />
+      <workItem from="1603136688502" duration="10656000" />
+      <workItem from="1603187378405" duration="3311000" />
+      <workItem from="1603193446545" duration="7593000" />
+      <workItem from="1603277976640" duration="12846000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="438" y="191" key="EditFileWatcherDialog" timestamp="1602877107934">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="438" y="191" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1602877107934" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1603187393219">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603187393219" />
+    <state x="294" y="110" key="SettingsEditor" timestamp="1603190992742">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="294" y="110" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603190992742" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1603111229715">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1603111229715" />
+  </component>
+</project>
